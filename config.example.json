@@ -1,0 +1,14 @@
+{
+    "ambiente": "homologacao",
+    "path_prefix": "api",
+    "verificar_ssl": true,
+    "timeout": 120,
+    "connect_timeout": 60,
+    "validar_antes_de_enviar": true,
+    "certificado": {
+        "pfx_path": "/caminho/absoluto/certificado-a1.pfx",
+        "pfx_senha": "senha-do-pfx",
+        "openssl_bin": "openssl",
+        "cache_dir": ""
+    }
+}

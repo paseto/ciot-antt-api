@@ -1,0 +1,40 @@
+{
+    "name": "paseto/ciot-antt-api",
+    "description": "SDK PHP framework-agnostic para emissão de CIOT junto ao web service PEF da ANTT.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["ciot", "antt", "pef", "frete", "transporte", "rntrc"],
+    "require": {
+        "php": "^8.2",
+        "ext-json": "*",
+        "ext-openssl": "*",
+        "guzzlehttp/guzzle": "^7.8",
+        "nfephp-org/sped-common": "^5.1",
+        "psr/log": "^3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.0",
+        "mockery/mockery": "^1.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Paseto\\CiotAntt\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Paseto\\CiotAntt\\Tests\\": "tests/",
+            "Paseto\\CiotAntt\\Examples\\": "examples/"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "support": {
+        "docs": "https://github.com/paseto/ciot-antt-api/blob/main/docs/USAGE.md",
+        "issues": "https://github.com/paseto/ciot-antt-api/issues",
+        "source": "https://github.com/paseto/ciot-antt-api"
+    }
+}

@@ -1,0 +1,9 @@
+/vendor/
+/.phpunit.cache/
+composer.lock
+.phpunit.result.cache
+config.json
+examples/config.json
+.idea/
+*.pfx
+*.p12

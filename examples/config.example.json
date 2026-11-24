@@ -1,0 +1,26 @@
+{
+    "ambiente": "homologacao",
+    "path_prefix": "api",
+    "verificar_ssl": true,
+    "timeout": 120,
+    "connect_timeout": 60,
+    "validar_antes_de_enviar": true,
+    "certificado": {
+        "pfx_path": "/caminho/absoluto/certificado-a1.pfx",
+        "pfx_senha": "senha-do-pfx",
+        "openssl_bin": "openssl",
+        "cache_dir": ""
+    },
+    "empresa": {
+        "cpf_cnpj_interessado": "00000000000000",
+        "cpf_cnpj_transportador": "00000000000000",
+        "rntrc_transportador": "000000000",
+        "cpf_cnpj_contratante": "00000000000000",
+        "cpf_cnpj_destinatario": "00000000000000",
+        "placa_automotor": "ABC1234"
+    },
+    "id_operacao_transporte": "",
+    "ciot_16": "",
+    "ciot_12": "",
+    "ano_declaracao": 0
+}
