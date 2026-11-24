@@ -1,8 +1,16 @@
-# paseto/ciot-antt-api
+# CIOT ANTT API
+
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/paseto/ciot-antt-api.svg?style=flat-square)](https://packagist.org/packages/paseto/ciot-antt-api)
+[![Total Downloads](https://img.shields.io/packagist/dt/paseto/ciot-antt-api.svg?style=flat-square)](https://packagist.org/packages/paseto/ciot-antt-api)
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
 
 SDK **PHP framework-agnostic** para emissão e gestão de **CIOT** (Código Identificador da Operação de Transporte) no web service **PEF da ANTT**, alinhado ao **DCS PEF** ([documentação oficial](https://www.gov.br/antt/pt-br/assuntos/cargas/ciot-para-todos-1/documentos-tecnicos)).
 
 Configure com **JSON**, autentique com **certificado A1** (PFX) e chame os serviços pela classe **`Tools`**.
+
+```bash
+composer require paseto/ciot-antt-api
+```
 
 ## Requisitos
 
@@ -13,7 +21,6 @@ Configure com **JSON**, autentique com **certificado A1** (PFX) e chame os servi
 ## Instalação
 
 ```bash
-composer require paseto/ciot-antt-api
 cp vendor/paseto/ciot-antt-api/config.example.json ciot-config.json
 ```
 
